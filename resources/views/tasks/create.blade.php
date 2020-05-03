@@ -11,7 +11,7 @@
         
         <div class="form-group">
             {!! Form::label('content' , 'タスク：') !!}
-            {!! Form::text('content',null,['class'=>'form-controll']) !!}
+            {!! Form::text('content',null,['class'=>'form-control']) !!}
         </div>
         
         {!! Form::submit('追加',['class'=>'btn btn-primary']) !!}
