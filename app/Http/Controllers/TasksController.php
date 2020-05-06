@@ -15,6 +15,10 @@ class TasksController extends Controller
     public function index()
     {
         $tasks = Task::all();
+        
+        //dd('test');
+        //var_dump(10);
+        
         return view('tasks.index',[
             'tasks' => $tasks
         ]);
